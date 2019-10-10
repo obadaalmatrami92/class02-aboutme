@@ -16,51 +16,51 @@ else {
 console.log('love' + love);
 
 
-var love = prompt('which is the most car company obada love ? is BMW')
-love = love.toLowerCase();
-if (love == 'yes') {
+var car = prompt('which is the most car company obada love ? is BMW')
+car = car.toLowerCase();
+if (car == 'yes') {
     alert('Of course they do do');
-} else if (love == 'y') {
+} else if (car == 'y') {
     alert('Of course they do');
-} else if (love == 'no') {
+} else if (car == 'no') {
     alert('Ops, wrong annswer , obada love  BMW ');
-} else if (love == 'n') {
+} else if (car == 'n') {
     alert('Ops, wrong annswer , obada love  BMW ');
 }
 else {
     alert('please refresh the page and re enter the yes or no answers');
 }
 
-console.log('love' + love);
+console.log('car' + car);
 
 
 
-var love = prompt('when the first time obada drive his first car ? in 2004 ')
-love = love.toLowerCase();
-if (love == 'yes') {
+var  g1 = prompt('when the first time obada drive his first car ? in 2004 ')
+g1 = car.toLowerCase();
+if (g1 == 'yes') {
     alert('correct , will done');
-} else if (love == 'y') {
+} else if (g1 == 'y') {
     alert('correct , will done');
-} else if (love == 'no') {
+} else if (g1 == 'no') {
     alert('Ops, wrong answer ');
-} else if (love == 'n') {
+} else if (g1 == 'n') {
     alert('Ops, wrong annswer');
 }
 else {
     alert('please refresh the page and re enter the yes or no answers');
 }
-console.log('love' + love);
+console.log('g1' + g1);
 
 
-var love = prompt('which is the most country do obada love  --is jordan ')
-love = love.toLowerCase();
-if (love == 'yes') {
+var j2 = prompt('which is the most country do obada love  --is jordan ')
+j2 = j2.toLowerCase();
+if (j2 == 'yes') {
     alert('good , obada love his country , "jordan"');
-} else if (love == 'y') {
+} else if (j2 == 'y') {
     alert('good , obada love his country , "jordan"');
-} else if (love == 'no') {
+} else if (j2 == 'no') {
     alert('Ops, wrong annswer');
-} else if (love == 'n') {
+} else if (j2 == 'n') {
     alert('Ops, wrong annswer');
 }
 else {
@@ -68,21 +68,21 @@ else {
 }
 
 
-console.log('love' + love);
+console.log('j2' + j2);
 
 
-var love = prompt('where does obada live ? in Jordan ')
-love = love.toLowerCase();
-if (love == 'yes') {
+var d1 = prompt('where does obada live ? in Jordan ')
+d1 = d1.toLowerCase();
+if (d1 == 'yes') {
     alert('yes obada living in jordan');
-} else if (love == 'y') {
+} else if (d1 == 'y') {
     alert('yes obada living in jordan');
-} else if (love == 'no') {
+} else if (d1 == 'no') {
     alert('Ops, wrong annswer, obada live in jordan');
-} else if (love == 'n') {
+} else if (d1 == 'n') {
     alert('Ops, wrong annswer, obada live in jordan');
 }
 else {
     alert('please refresh the page and re enter the yes or no answers');
 }
-console.log('love' + love);
+console.log('d1' + d1);
