@@ -77,7 +77,9 @@ function question1(userResponse) {
     }
 
   }
+  document.write('<h1>' + userResponse + '</h1>');
   return userResponse;
+
 
 }
 
@@ -103,6 +105,8 @@ function q6(age) {
 
   }
   alert('you are right how you guess the answer ');
+  document.write('<h1>' + age + '</h1>');
+
   return (age);
 }
 q6();
@@ -122,7 +126,7 @@ function Question7() {
       alert(' Now you did a wonderful job you know my favorite places , great job, Maldive ,  Turkey , Brazil ,  Jordan-petra , New York City, USA , Italy');
       counter++;
       console.log(chose);
-       t = 6;
+      t = 6;
 
       break;
 
@@ -130,7 +134,9 @@ function Question7() {
       alert('You write down a wrong answer , can you please try again ... ');
       console.log(chose);
       break;
+      
     }
+    document.write('<h1>' + chose + '</h1>');
   }
 
 }
