@@ -3,7 +3,7 @@
 var firstname = prompt('Hello , what is your name ? ');
 alert(' Nice to meet you :' + firstname);
 console.log('name', firstname);
-
+document.write('<h1>' + firstname + '</h1>');
 var counter = 0;
 
 function question1(userResponse) {
@@ -11,8 +11,8 @@ function question1(userResponse) {
 
   var questions = [
     [
-      'Do i love coding ?',
-      'Of course i do',
+      'Do I love coding ?',
+      'Of course I do',
       'Ops, wrong answer , obada love coding'
     ],
     [
@@ -51,10 +51,11 @@ function question1(userResponse) {
 
     var currentPrompt = currentQuestion[promptIndex];
 
+    // eslint-disable-next-line no-redeclare
     var userResponse = prompt(currentPrompt);
 
     userResponse = userResponse.toUpperCase();
-
+    // console.log("sdasd", userResponse);
     var currentPositiveReply = currentQuestion[positiveIndex];
 
     var currentNegativeReply = currentQuestion[negativeIndex];
@@ -88,9 +89,10 @@ question1();
 
 function q6(age) {
   for (var f = 0; f < 5; f++) {
-    var age = prompt('how old is obada ? Please Make sure to enter a number');
+    // eslint-disable-next-line no-redeclare
+    age = prompt('how old is obada ? Please Make sure to enter a number');
 
-    if (age == 27) {
+    if (age === 27) {
       alert(' correct answer !');
       counter++;
       console.log(age);
@@ -102,7 +104,6 @@ function q6(age) {
       alert(' oops , too low ');
       console.log(age);
     }
-
   }
   alert('you are right how you guess the answer ');
   document.write('<h1>' + age + '</h1>');
@@ -111,7 +112,7 @@ function q6(age) {
 }
 q6();
 
-function Question7() {
+function question7() {
   var country = ['Maldive', 'Turkey', 'Brazil', 'Jordan-petra', 'New York City', 'USA', 'Italy'];
   for (var t = 0; t < 6; t++) {
     var chose = prompt('now i sugess a some of my favorite places i plan to travel to them ,Maldive, Turkey, Brazil, Jordan-petra, New York City, USA, Italy ');
@@ -134,13 +135,14 @@ function Question7() {
       alert('You write down a wrong answer , can you please try again ... ');
       console.log(chose);
       break;
-      
+
     }
     document.write('<h1>' + chose + '</h1>');
   }
 
 }
-Question7();
+// eslint-disable-next-line new-cap
+question7();
 alert('Thank you  you got this point ' + counter);
 // console.log('Question7');
 
