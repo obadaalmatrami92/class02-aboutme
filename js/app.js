@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 'use strict';
 
 var firstname = prompt('Hello , what is your name ? ');
@@ -6,8 +5,7 @@ alert(' Nice to meet you :' + firstname);
 console.log('name', firstname);
 document.write('<h1>' + firstname + '</h1>');
 var counter = 0;
-=======
-'use strict';//use with string datatype
+
 var love = prompt('Do obada love coding?')
 love = love.toLowerCase();
 if (love == 'yes') {
@@ -41,7 +39,7 @@ else {
 }
 
 console.log('car' + car);
->>>>>>> master
+
 
 function question1(userResponse) {
 
@@ -119,8 +117,6 @@ function question1(userResponse) {
   return userResponse;
 
 
-<<<<<<< HEAD
-=======
 var  g1 = prompt('when the first time obada drive his first car ? in 2004 ')
 g1 = car.toLowerCase();
 if (g1 == 'yes') {
@@ -151,20 +147,17 @@ if (j2 == 'yes') {
 }
 else {
     alert('please refresh the page and re enter the yes or no answers');
->>>>>>> master
+
 }
 
 question1();
 
 
-<<<<<<< HEAD
 function q6(age) {
   for (var f = 0; f < 5; f++) {
     // eslint-disable-next-line no-redeclare
     age = prompt('how old is obada ? Please Make sure to enter a number');
-=======
 console.log('j2' + j2);
->>>>>>> master
 
     if (age === 27) {
       alert(' correct answer !');
@@ -182,9 +175,7 @@ console.log('j2' + j2);
   alert('you are right how you guess the answer ');
   document.write('<h1>' + age + '</h1>');
 
-<<<<<<< HEAD
   return (age);
-=======
 var d1 = prompt('where does obada live ? in Jordan ')
 d1 = d1.toLowerCase();
 if (d1 == 'yes') {
@@ -228,12 +219,9 @@ function question7() {
   }
 
 }
-<<<<<<< HEAD
 // eslint-disable-next-line new-cap
 question7();
 alert('Thank you  you got this point ' + counter);
 // console.log('Question7');
 
-=======
 console.log('d1' + d1);
->>>>>>> master
